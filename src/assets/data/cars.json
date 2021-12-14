@@ -1,0 +1,332 @@
+[
+    {
+        "id": "c1",
+        "brand": "Ferrari",
+        "model": "California",
+        "iconImg": "https://i.ibb.co/SJ1Rfzj/ferrari-icon.png",
+        "pathImg": "https://i.ibb.co/GPXHWvv/Ferrari-California-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/tHq6PTH/ferrari-california-red-2x.png"
+            },
+            {
+                "color": "gray",
+                "pathImg": "https://i.ibb.co/0sdMX6m/ferrari-california-gray-2x.png"
+            },
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/rGjcXCG/ferrari-california-yellow-2x.png"
+            }
+        ]
+    },
+    {
+        "id": "c2",
+        "brand": "McLaren",
+        "model": "570S",
+        "iconImg": "https://i.ibb.co/9sVYTn8/mclaren-icon.png",
+        "pathImg": "https://i.ibb.co/xHFjJHC/Mc-Laren-570-S.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "orange",
+                "pathImg": "https://i.ibb.co/SNrn1vh/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/x6pTSxZ/image.png"
+            },
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/KLhc2Qc/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c3",
+        "brand": "BMW",
+        "model": "Coupe 2D 335i",
+        "iconImg": "https://i.ibb.co/xDCQmNs/bmw-icon.png",
+        "pathImg": "https://i.ibb.co/8Pyk9nD/BMW-Coupe-2-D-335i-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "gray",
+                "pathImg": "https://i.ibb.co/M1Htsqc/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/jJTDjvh/image.png"
+            },
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/QvBfK4X/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c4",
+        "brand": "Porsche",
+        "model": "911 GT2 RS",
+        "iconImg": "https://i.ibb.co/VQzsq8D/porsche-icon.png",
+        "pathImg": "https://i.ibb.co/XS6cgYX/Porsche-911-GT2-RS-2x.png",
+        "rent": 825,
+        "types": [
+            {
+                "color": "orange",
+                "pathImg": "https://i.ibb.co/hBdQYmR/image.png"
+            },
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/yd1sjZp/image.png"
+            },
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/Chp2ggf/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c5",
+        "brand": "Bentley",
+        "model": "Continental GT",
+        "iconImg": "https://i.ibb.co/GvP1x7n/bentley-icon.png",
+        "pathImg": "https://i.ibb.co/W3DTF8k/Bentley-Continental-GT-2x.png",
+        "rent": 825,
+        "types": [
+            {
+                "color": "gray",
+                "pathImg": "https://i.ibb.co/JyDcrw9/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/bJ15KkR/image.png"
+            },
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/YXmyt11/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c6",
+        "brand": "BMW",
+        "model": "M1 Competition",
+        "iconImg": "https://i.ibb.co/xDCQmNs/bmw-icon.png",
+        "pathImg": "https://i.ibb.co/WDSSfH2/BMW-M1-Competition-2x.png",
+        "rent": 825,
+        "types": [
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/87wfZbj/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/sQZvvvV/image.png"
+            },
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/C8PzgLc/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c7",
+        "brand": "Alfa Romeo",
+        "model": "4C Spider",
+        "iconImg": "https://i.ibb.co/qFVYynm/alfaromeo-icon.pngs",
+        "pathImg": "https://i.ibb.co/3NxXmqh/Alfa-Romeo-4-C-Spider-2x.png",
+        "rent": 825,
+        "types": [
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/fp6Bn6J/image.png"
+            },
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/HgP9nvN/image.png"
+            },
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/WvcJ3Ry/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c8",
+        "brand": "McLaren",
+        "model": "P1 GTR",
+        "iconImg": "https://i.ibb.co/9sVYTn8/mclaren-icon.png",
+        "pathImg": "https://i.ibb.co/n1C724R/Mc-Laren-P1-GTR-2x.png",
+        "rent": 925,
+        "types": [
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/3CP2MfQ/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/KrPXDPv/image.png"
+            },
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/M9SFVMm/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c9",
+        "brand": "Lamborghini",
+        "model": "Aventador",
+        "iconImg": "https://i.ibb.co/DDdjwNF/lamborghini-icon.png",
+        "pathImg": "https://i.ibb.co/cTG04vs/Lamborghini-Aventador-2x.png",
+        "rent": 925,
+        "types": [
+            {
+                "color": "orange",
+                "pathImg": "https://i.ibb.co/gJkRSpd/image.png"
+            },
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/7gR8ptb/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/qmJjFsx/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c10",
+        "brand": "Bugatti",
+        "model": "Veyron Spider",
+        "iconImg": "https://i.ibb.co/V3ytd0N/bugatti-icon.png",
+        "pathImg": "https://i.ibb.co/KwSQmKC/Bugatti-Veyron-Spider-2x.png",
+        "rent": 925,
+        "types": [
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/dKXY22T/image.png"
+            },
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/NrWHNHp/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/56jJc8n/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c11",
+        "brand": "Chevrolet",
+        "model": "Corvett",
+        "iconImg": "https://i.ibb.co/Wxb497D/chevrolet-icon.png",
+        "pathImg": "https://i.ibb.co/q1dQtG0/Chevrolet-Corvett-2x.png",
+        "rent": 925,
+        "types": [
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/0t3dwzd/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/FqNKHD4/image.png"
+            },
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/zZKzLf9/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c12",
+        "brand": "Ferrari",
+        "model": "458 Italia",
+        "iconImg": "https://i.ibb.co/SJ1Rfzj/ferrari-icon.png",
+        "pathImg": "https://i.ibb.co/3W3CGyC/Ferrari-485-Italia-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/3f01DHL/image.png"
+            },
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/gj29LGW/image.png"
+            },
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/DwqkrT9/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c13",
+        "brand": "Rolls-Royce",
+        "model": "Wraith",
+        "iconImg": "https://i.ibb.co/y8ZDzqQ/rollsroyce-icon.png",
+        "pathImg": "https://i.ibb.co/phYHTSJ/Rolls-Royce-Wraith-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/DtCgJD3/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/R4t8dnb/image.png"
+            },
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/T8sMdV1/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c14",
+        "brand": "Porsche",
+        "model": "911 GT3 RS",
+        "iconImg": "https://i.ibb.co/VQzsq8D/porsche-icon.png",
+        "pathImg": "https://i.ibb.co/kc6mXcQ/Porsche-911-GT3-RS-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "white",
+                "pathImg": "https://i.ibb.co/Cwxfdjc/image.png"
+            },
+            {
+                "color": "black",
+                "pathImg": "https://i.ibb.co/7yw7bFq/image.png"
+            },
+            {
+                "color": "yellow",
+                "pathImg": "https://i.ibb.co/kJNSnbR/image.png"
+            }
+        ]
+    },
+    {
+        "id": "c15",
+        "brand": "Mercedes-Benz ",
+        "model": "AMG GTS",
+        "iconImg": "https://i.ibb.co/7b54B59/mercedesbenz-icon.png",
+        "pathImg": "https://i.ibb.co/8DxSBSF/Mercedes-Benz-AMG-GTS-2x.png",
+        "rent": 725,
+        "types": [
+            {
+                "color": "gray",
+                "pathImg": "https://i.ibb.co/HXMCYNT/image.png"
+            },
+            {
+                "color": "red",
+                "pathImg": "https://i.ibb.co/YcHhWTg/image.png"
+            },
+            {
+                "color": "blue",
+                "pathImg": "https://i.ibb.co/302shbg/image.png"
+            }
+        ]
+    }
+]

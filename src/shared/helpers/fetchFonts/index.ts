@@ -8,10 +8,10 @@ import {
 
 const fetchFonts = () => {
   return Font.loadAsync({
-    [SegoeUIBoldItalic]: require("../../../assets/Fonts/Segoe-UI-Bold-Italic.ttf"),
-    [SegoeUIBold]: require("../../../assets/Fonts/Segoe-UI-Bold.ttf"),
-    [SegoeUIItalic]: require("../../../assets/Fonts/Segoe-UI-Italic.ttf"),
-    [SegoeUI]: require("../../../assets/Fonts/Segoe-UI.ttf"),
+    [SegoeUIBoldItalic]: require("../../../assets/fonts/Segoe-UI-Bold-Italic.ttf"),
+    [SegoeUIBold]: require("../../../assets/fonts/Segoe-UI-Bold.ttf"),
+    [SegoeUIItalic]: require("../../../assets/fonts/Segoe-UI-Italic.ttf"),
+    [SegoeUI]: require("../../../assets/fonts/Segoe-UI.ttf"),
   });
 };
 

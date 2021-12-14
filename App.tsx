@@ -4,6 +4,8 @@ import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import Routes from "@routes/index";
 import { fetchFonts } from "@shared/helpers";
+import { Provider } from "react-redux";
+import store from "@store/index";
 
 const App: React.FC = () => {
   const [fontLoaded, setFontLoaded] = useState<boolean>(false);
@@ -19,10 +21,12 @@ const App: React.FC = () => {
   }
 
   return (
-    <NavigationContainer>
-      <Routes />
-      <StatusBar style="auto" />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <Routes />
+        <StatusBar style="auto" />
+      </NavigationContainer>
+    </Provider>
   );
 };
 

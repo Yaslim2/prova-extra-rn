@@ -5,6 +5,15 @@ import {
   SegoeUI,
 } from "./fonts";
 
-import { defaultBlack } from "./colors";
+import { defaultBlack, border, bgCarItem, defaultGray } from "./colors";
 
-export { SegoeUI, SegoeUIBold, SegoeUIBoldItalic, SegoeUIItalic, defaultBlack };
+export {
+  SegoeUI,
+  SegoeUIBold,
+  SegoeUIBoldItalic,
+  SegoeUIItalic,
+  defaultBlack,
+  border,
+  bgCarItem,
+  defaultGray,
+};

@@ -1,4 +1,6 @@
+import { CarJson } from "@store/slices/carSlice/types";
+
 export type RootAppStackNavigator = {
   CarsOverview: undefined;
-  CarsDetail: undefined;
+  CarsDetail: { car: CarJson };
 };

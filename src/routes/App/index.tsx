@@ -6,12 +6,12 @@ const AppStack = createNativeStackNavigator();
 
 const AppNavigator = () => {
   return (
-    <AppStack.Navigator
-      screenOptions={{
-        headerTitle: HeaderTitle,
-      }}
-    >
-      <AppStack.Screen component={CarsOverview} name="CarsOverview" />
+    <AppStack.Navigator>
+      <AppStack.Screen
+        component={CarsOverview}
+        name="CarsOverview"
+        options={{ headerTitle: HeaderTitle }}
+      />
       <AppStack.Screen component={CarsDetail} name="CarsDetail" />
     </AppStack.Navigator>
   );
