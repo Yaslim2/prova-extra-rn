@@ -1,3 +1,3 @@
 import fetchFonts from "./fetchFonts";
-
-export { fetchFonts };
+import firstLetterUpper from "./firstLetterUpper";
+export { fetchFonts, firstLetterUpper };

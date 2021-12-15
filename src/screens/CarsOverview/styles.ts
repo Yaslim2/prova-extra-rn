@@ -1,9 +1,7 @@
 import {
   border,
   defaultBlack,
-  SegoeUI,
   SegoeUIBold,
-  SegoeUIBoldItalic,
   SegoeUIItalic,
 } from "@shared/themes";
 import styled from "styled-components/native";

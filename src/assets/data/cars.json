@@ -1,10 +1,11 @@
 [
     {
-        "id": "c1",
+        "id": "1",
         "brand": "Ferrari",
         "model": "California",
         "iconImg": "https://i.ibb.co/SJ1Rfzj/ferrari-icon.png",
         "pathImg": "https://i.ibb.co/GPXHWvv/Ferrari-California-2x.png",
+        "sportCar": true,
         "rent": 725,
         "types": [
             {
@@ -22,11 +23,12 @@
         ]
     },
     {
-        "id": "c2",
+        "id": "2",
         "brand": "McLaren",
         "model": "570S",
         "iconImg": "https://i.ibb.co/9sVYTn8/mclaren-icon.png",
         "pathImg": "https://i.ibb.co/xHFjJHC/Mc-Laren-570-S.png",
+        "sportCar": true,
         "rent": 725,
         "types": [
             {
@@ -44,11 +46,12 @@
         ]
     },
     {
-        "id": "c3",
+        "id": "3",
         "brand": "BMW",
         "model": "Coupe 2D 335i",
         "iconImg": "https://i.ibb.co/xDCQmNs/bmw-icon.png",
         "pathImg": "https://i.ibb.co/8Pyk9nD/BMW-Coupe-2-D-335i-2x.png",
+        "sportCar": true,
         "rent": 725,
         "types": [
             {
@@ -66,11 +69,12 @@
         ]
     },
     {
-        "id": "c4",
+        "id": "4",
         "brand": "Porsche",
         "model": "911 GT2 RS",
         "iconImg": "https://i.ibb.co/VQzsq8D/porsche-icon.png",
         "pathImg": "https://i.ibb.co/XS6cgYX/Porsche-911-GT2-RS-2x.png",
+        "sportCar": true,
         "rent": 825,
         "types": [
             {
@@ -88,11 +92,12 @@
         ]
     },
     {
-        "id": "c5",
+        "id": "5",
         "brand": "Bentley",
         "model": "Continental GT",
         "iconImg": "https://i.ibb.co/GvP1x7n/bentley-icon.png",
         "pathImg": "https://i.ibb.co/W3DTF8k/Bentley-Continental-GT-2x.png",
+        "sportCar": false,
         "rent": 825,
         "types": [
             {
@@ -110,11 +115,12 @@
         ]
     },
     {
-        "id": "c6",
+        "id": "6",
         "brand": "BMW",
         "model": "M1 Competition",
         "iconImg": "https://i.ibb.co/xDCQmNs/bmw-icon.png",
         "pathImg": "https://i.ibb.co/WDSSfH2/BMW-M1-Competition-2x.png",
+        "sportCar": true,
         "rent": 825,
         "types": [
             {
@@ -123,7 +129,7 @@
             },
             {
                 "color": "black",
-                "pathImg": "https://i.ibb.co/sQZvvvV/image.png"
+                "pathImg": "https://i.ibb.co/Ydh3mZ3/image.png"
             },
             {
                 "color": "blue",
@@ -132,11 +138,12 @@
         ]
     },
     {
-        "id": "c7",
+        "id": "7",
         "brand": "Alfa Romeo",
         "model": "4C Spider",
         "iconImg": "https://i.ibb.co/qFVYynm/alfaromeo-icon.pngs",
         "pathImg": "https://i.ibb.co/3NxXmqh/Alfa-Romeo-4-C-Spider-2x.png",
+        "sportCar": true,
         "rent": 825,
         "types": [
             {
@@ -154,11 +161,12 @@
         ]
     },
     {
-        "id": "c8",
+        "id": "8",
         "brand": "McLaren",
         "model": "P1 GTR",
         "iconImg": "https://i.ibb.co/9sVYTn8/mclaren-icon.png",
         "pathImg": "https://i.ibb.co/n1C724R/Mc-Laren-P1-GTR-2x.png",
+        "sportCar": true,
         "rent": 925,
         "types": [
             {
@@ -176,11 +184,12 @@
         ]
     },
     {
-        "id": "c9",
+        "id": "9",
         "brand": "Lamborghini",
         "model": "Aventador",
         "iconImg": "https://i.ibb.co/DDdjwNF/lamborghini-icon.png",
         "pathImg": "https://i.ibb.co/cTG04vs/Lamborghini-Aventador-2x.png",
+        "sportCar": true,
         "rent": 925,
         "types": [
             {
@@ -198,16 +207,17 @@
         ]
     },
     {
-        "id": "c10",
+        "id": "10",
         "brand": "Bugatti",
         "model": "Veyron Spider",
         "iconImg": "https://i.ibb.co/V3ytd0N/bugatti-icon.png",
         "pathImg": "https://i.ibb.co/KwSQmKC/Bugatti-Veyron-Spider-2x.png",
+        "sportCar": true,
         "rent": 925,
         "types": [
             {
                 "color": "blue",
-                "pathImg": "https://i.ibb.co/dKXY22T/image.png"
+                "pathImg": "https://i.ibb.co/HGS7J27/image.png"
             },
             {
                 "color": "red",
@@ -220,11 +230,12 @@
         ]
     },
     {
-        "id": "c11",
+        "id": "11",
         "brand": "Chevrolet",
         "model": "Corvett",
         "iconImg": "https://i.ibb.co/Wxb497D/chevrolet-icon.png",
         "pathImg": "https://i.ibb.co/q1dQtG0/Chevrolet-Corvett-2x.png",
+        "sportCar": true,
         "rent": 925,
         "types": [
             {
@@ -242,11 +253,12 @@
         ]
     },
     {
-        "id": "c12",
+        "id": "12",
         "brand": "Ferrari",
         "model": "458 Italia",
         "iconImg": "https://i.ibb.co/SJ1Rfzj/ferrari-icon.png",
         "pathImg": "https://i.ibb.co/3W3CGyC/Ferrari-485-Italia-2x.png",
+        "sportCar": true,
         "rent": 725,
         "types": [
             {
@@ -264,16 +276,17 @@
         ]
     },
     {
-        "id": "c13",
+        "id": "13",
         "brand": "Rolls-Royce",
         "model": "Wraith",
         "iconImg": "https://i.ibb.co/y8ZDzqQ/rollsroyce-icon.png",
         "pathImg": "https://i.ibb.co/phYHTSJ/Rolls-Royce-Wraith-2x.png",
+        "sportCar": false,
         "rent": 725,
         "types": [
             {
                 "color": "red",
-                "pathImg": "https://i.ibb.co/DtCgJD3/image.png"
+                "pathImg": "https://i.ibb.co/4ggHG47/image.png"
             },
             {
                 "color": "black",
@@ -286,16 +299,17 @@
         ]
     },
     {
-        "id": "c14",
+        "id": "14",
         "brand": "Porsche",
         "model": "911 GT3 RS",
         "iconImg": "https://i.ibb.co/VQzsq8D/porsche-icon.png",
         "pathImg": "https://i.ibb.co/kc6mXcQ/Porsche-911-GT3-RS-2x.png",
+        "sportCar": true,
         "rent": 725,
         "types": [
             {
                 "color": "white",
-                "pathImg": "https://i.ibb.co/Cwxfdjc/image.png"
+                "pathImg": "https://i.ibb.co/Mc1fYYN/image.png"
             },
             {
                 "color": "black",
@@ -308,11 +322,12 @@
         ]
     },
     {
-        "id": "c15",
-        "brand": "Mercedes-Benz ",
+        "id": "15",
+        "brand": "Mercedes-Benz",
         "model": "AMG GTS",
         "iconImg": "https://i.ibb.co/7b54B59/mercedesbenz-icon.png",
         "pathImg": "https://i.ibb.co/8DxSBSF/Mercedes-Benz-AMG-GTS-2x.png",
+        "sportCar": false,
         "rent": 725,
         "types": [
             {

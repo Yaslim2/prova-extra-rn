@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootAppStackNavigator } from "@routes/App/types";
 import { FlatList } from "react-native";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@store/types";
-import CarItem from "@components/CarItem";
+import { CarItem } from "@components/index";
 import {
   CarsOverviewContainer,
   Screen,
@@ -18,10 +18,22 @@ import { defaultBlack } from "@shared/themes";
 const CarsOverview = (
   props: NativeStackScreenProps<RootAppStackNavigator, "CarsOverview">
 ) => {
+  const dispatch = useDispatch();
+  const handleGoToCart = () => {
+    props.navigation.navigate("Cart");
+  };
+
   useEffect(() => {
     props.navigation.setOptions({
       headerRight: () => {
-        return <Ionicons name="cart-outline" size={23} color={defaultBlack} />;
+        return (
+          <Ionicons
+            name="cart-outline"
+            size={23}
+            color={defaultBlack}
+            onPress={handleGoToCart}
+          />
+        );
       },
     });
   }, []);
@@ -48,6 +60,8 @@ const CarsOverview = (
         <FlatList
           style={{ width: "100%" }}
           data={cars}
+          removeClippedSubviews
+          keyExtractor={(item) => item.id}
           renderItem={(item) => (
             <CarItem onPress={handlePress} car={item.item} />
           )}

@@ -1,6 +1,6 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { CarSliceState } from "./types";
-import cars from "../../../assets/data/cars.json";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { CarJson, CarSliceState } from "./types";
+import cars from "@assets/data/cars.json";
 
 const initialState: CarSliceState = {
   cars: cars,

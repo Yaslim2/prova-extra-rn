@@ -5,7 +5,14 @@ import {
   SegoeUI,
 } from "./fonts";
 
-import { defaultBlack, border, bgCarItem, defaultGray } from "./colors";
+import {
+  defaultBlack,
+  border,
+  bgCarItem,
+  defaultGray,
+  bgGray,
+  defaultGreen,
+} from "./colors";
 
 export {
   SegoeUI,
@@ -16,4 +23,6 @@ export {
   border,
   bgCarItem,
   defaultGray,
+  bgGray,
+  defaultGreen,
 };

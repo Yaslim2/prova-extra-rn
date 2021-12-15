@@ -1,3 +1,3 @@
 import carSlice from "./carSlice";
-
-export { carSlice };
+import cartSlice from "./cartSlice";
+export { carSlice, cartSlice };

@@ -9,6 +9,7 @@ export type CarJson = {
   model: string;
   pathImg: string;
   iconImg: string;
+  sportCar: boolean;
   rent: number;
   types: TypesCar[];
 };

@@ -1,6 +1,11 @@
 import styled from "styled-components/native";
 import { LinearGradient } from "expo-linear-gradient";
-import { defaultBlack, SegoeUIBold, SegoeUIItalic } from "@shared/themes";
+import {
+  defaultBlack,
+  SegoeUI,
+  SegoeUIBold,
+  SegoeUIItalic,
+} from "@shared/themes";
 
 export const LinearCarGradient = styled(LinearGradient)`
   flex: 1;
@@ -22,6 +27,7 @@ export const MainIcon = styled.Image`
 `;
 
 export const TextArea = styled.View`
+  width: 78%;
   flex-direction: column;
 `;
 
@@ -37,11 +43,42 @@ export const PriceText = styled.Text`
   color: ${defaultBlack};
 `;
 
-export const BrandIcon = styled.Image`
-  width: 40px;
-  height: 40px;
+export const IndexColorArea = styled.View`
+  justify-content: flex-start;
+  align-items: flex-end;
+`;
+
+export const IndexText = styled.Text`
+  font-family: ${SegoeUIBold};
+  font-size: 22px;
+  color: ${defaultBlack};
+  text-align: left;
+`;
+
+export const ColorText = styled.Text`
+  font-family: ${SegoeUI};
+  font-size: 22px;
+  color: ${defaultBlack};
+  text-align: left;
 `;
 
 export const CarouselContainer = styled.View`
   width: 100%;
+`;
+
+export const RentArea = styled.View`
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+`;
+
+export const RentText = styled.Text`
+  font-family: ${SegoeUIItalic};
+  font-size: 18px;
+  color: ${defaultBlack};
+  text-align: center;
+`;
+
+export const ButtonArea = styled.View`
+  margin-top: 15px;
 `;

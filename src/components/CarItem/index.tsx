@@ -40,7 +40,6 @@ const CarItem: React.FC<CarItemProps> = (props) => {
             <MoneyText>$</MoneyText>
             <RentText>{props.car.rent}</RentText>
           </AreaPrice>
-
           <DayText>/day</DayText>
         </Footer>
       </Touchable>
