@@ -1,4 +1,4 @@
-import { defaultBlack, SegoeUI, SegoeUIBold } from "@shared/themes";
+import { defaultBlack, SegoeUIBold } from "@shared/themes";
 import styled from "styled-components/native";
 
 export const ButtonContainer = styled.TouchableOpacity`

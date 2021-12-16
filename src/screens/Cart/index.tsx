@@ -11,12 +11,10 @@ import {
   CartListItems,
   ButtonArea,
 } from "./styles";
-import EmptyCart from "@components/EmptyCart";
+import { EmptyCart, CartItem, ForwardButton } from "@components/index";
 import { useSelector } from "react-redux";
 import { RootState } from "@store/types";
 import { FlatList } from "react-native";
-import CartItem from "@components/CartItem";
-import CartButton from "@components/CartButton";
 
 const Cart = (props: NativeStackScreenProps<RootAppStackNavigator, "Cart">) => {
   const items = useSelector((state: RootState) => state.cart.items);
@@ -41,7 +39,7 @@ const Cart = (props: NativeStackScreenProps<RootAppStackNavigator, "Cart">) => {
             <FlatList
               data={items}
               removeClippedSubviews
-              style={{ width: "100%" }}
+              style={{ width: "100%", flex: 1 }}
               renderItem={(item) => <CartItem item={item.item} />}
             />
           </CartListItems>
@@ -52,7 +50,7 @@ const Cart = (props: NativeStackScreenProps<RootAppStackNavigator, "Cart">) => {
         </CartPriceArea>
         {items.length !== 0 && (
           <ButtonArea>
-            <CartButton />
+            <ForwardButton>Save</ForwardButton>
           </ButtonArea>
         )}
       </CartContainer>

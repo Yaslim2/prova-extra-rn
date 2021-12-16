@@ -14,13 +14,16 @@ import {
 } from "./styles";
 import { Ionicons } from "@expo/vector-icons";
 import { defaultBlack } from "@shared/themes";
+import { logout } from "@store/slices/authSlice";
 
 const CarsOverview = (
   props: NativeStackScreenProps<RootAppStackNavigator, "CarsOverview">
 ) => {
   const dispatch = useDispatch();
-  const handleGoToCart = () => {
-    props.navigation.navigate("Cart");
+  const cars = useSelector((state: RootState) => state.car.cars);
+
+  const handleLogout = () => {
+    dispatch(logout());
   };
 
   useEffect(() => {
@@ -28,17 +31,15 @@ const CarsOverview = (
       headerRight: () => {
         return (
           <Ionicons
-            name="cart-outline"
-            size={23}
+            name="log-out-outline"
+            size={24}
             color={defaultBlack}
-            onPress={handleGoToCart}
+            onPress={handleLogout}
           />
         );
       },
     });
   }, []);
-
-  const cars = useSelector((state: RootState) => state.car.cars);
 
   const handlePress = (id: string) => {
     const car = cars.find((car) => car.id === id);

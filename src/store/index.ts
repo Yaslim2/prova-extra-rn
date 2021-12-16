@@ -1,10 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { carSlice, cartSlice } from "./slices/index";
+import { carSlice, cartSlice, authSlice } from "./slices/index";
 
 const store = configureStore({
   reducer: {
     car: carSlice,
     cart: cartSlice,
+    auth: authSlice,
   },
 });
 

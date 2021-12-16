@@ -1,3 +1,5 @@
 import fetchFonts from "./fetchFonts";
 import firstLetterUpper from "./firstLetterUpper";
-export { fetchFonts, firstLetterUpper };
+import handleErrors from "./handleErrors";
+import validateForm from "./validateForm";
+export { fetchFonts, firstLetterUpper, handleErrors, validateForm };

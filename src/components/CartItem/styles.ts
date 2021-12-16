@@ -1,18 +1,16 @@
 import {
   bgCarItem,
-  bgGray,
   border,
   defaultBlack,
   SegoeUI,
-  SegoeUIBold,
   SegoeUIBoldItalic,
   SegoeUIItalic,
 } from "@shared/themes";
 import styled from "styled-components/native";
 
 export const CartItemContainer = styled.View`
-  flex: 1;
   flex-direction: row;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: ${bgCarItem};
@@ -26,6 +24,7 @@ export const CartItemContainer = styled.View`
 export const CartItemContent = styled.View`
   flex-direction: row;
   align-items: center;
+  flex: 0.8;
 `;
 
 export const TrashArea = styled.TouchableOpacity`

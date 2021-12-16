@@ -44,6 +44,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
           </PriceArea>
         </TextContentArea>
       </CartItemContent>
+
       <CarImg resizeMode="contain" source={{ uri: item.img }} />
     </CartItemContainer>
   );

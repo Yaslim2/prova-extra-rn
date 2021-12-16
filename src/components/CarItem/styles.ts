@@ -4,18 +4,16 @@ import {
   defaultBlack,
   SegoeUI,
   SegoeUIBold,
-  SegoeUIBoldItalic,
   SegoeUIItalic,
 } from "@shared/themes";
 import styled from "styled-components/native";
 
 export const Wrapper = styled.View`
-  flex: 1;
+  width: 100%;
   padding: 15px;
 `;
 
 export const Touchable = styled.TouchableOpacity`
-  flex: 1;
   background-color: ${bgCarItem};
   padding: 10px;
   border-radius: 10px;

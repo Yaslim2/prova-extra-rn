@@ -12,10 +12,13 @@ import {
   defaultGray,
   bgGray,
   defaultGreen,
+  forgotPasswordColor,
+  formTypeColor,
 } from "./colors";
 
 export {
   SegoeUI,
+  formTypeColor,
   SegoeUIBold,
   SegoeUIBoldItalic,
   SegoeUIItalic,
@@ -25,4 +28,5 @@ export {
   defaultGray,
   bgGray,
   defaultGreen,
+  forgotPasswordColor,
 };

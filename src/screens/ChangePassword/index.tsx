@@ -1,0 +1,42 @@
+import React, { useState } from "react";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { useDispatch } from "react-redux";
+import { BackButton, Form, FormHeader, HeaderTitle } from "@components/index";
+import { RootAuthStackParamList } from "@routes/Auth/types";
+import { handleErrors } from "@shared/helpers";
+import { asyncChangePassword } from "@store/slices/authSlice";
+import { Container } from "./styles";
+
+const ChangePassword = (
+  props: NativeStackScreenProps<RootAuthStackParamList, "ChangePassword">
+) => {
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const dispatch = useDispatch();
+  const token = props.route.params.token;
+
+  const handleChangePassword = async (fields: { password?: string }) => {
+    try {
+      setIsLoading(true);
+      await dispatch(asyncChangePassword(token, fields.password!));
+      setIsLoading(false);
+      props.navigation.goBack();
+      props.navigation.goBack();
+    } catch (e: any) {
+      setIsLoading(false);
+      handleErrors("Error", e.message, true);
+    }
+  };
+
+  const handleGoBack = () => {
+    props.navigation.goBack();
+  };
+  return (
+    <Container>
+      <FormHeader>New password</FormHeader>
+      <Form loading={isLoading} isNewPassword onSubmit={handleChangePassword} />
+      <BackButton onPress={handleGoBack}>Back</BackButton>
+    </Container>
+  );
+};
+
+export default ChangePassword;

@@ -22,7 +22,7 @@ import { firstLetterUpper } from "@shared/helpers";
 import { BookNowButton, CarCarousel } from "@components/index";
 import { defaultBlack } from "@shared/themes";
 import { useDispatch } from "react-redux";
-import { addToCart, clearCart } from "@store/slices/cartSlice";
+import { addToCart } from "@store/slices/cartSlice";
 
 const CarsDetail = (
   props: NativeStackScreenProps<RootAppStackNavigator, "CarsDetail">
@@ -34,6 +34,10 @@ const CarsDetail = (
 
   const handleActiveSlide = (slide: number) => {
     setActiveSlide(slide);
+  };
+
+  const handleGoToCart = () => {
+    props.navigation.navigate("Cart");
   };
 
   const handleBookNow = () => {
@@ -54,9 +58,10 @@ const CarsDetail = (
       headerRight: () => {
         return (
           <Ionicons
-            name={car.sportCar ? "car-sport-outline" : "car-outline"}
+            name="ios-cart-outline"
             color={defaultBlack}
-            size={26}
+            size={24}
+            onPress={handleGoToCart}
           />
         );
       },

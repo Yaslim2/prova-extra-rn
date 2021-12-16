@@ -1,0 +1,41 @@
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import React, { useState } from "react";
+import { BackButton, Form, FormHeader, HeaderTitle } from "@components/index";
+import { RootAuthStackParamList } from "@routes/Auth/types";
+import { handleErrors } from "@shared/helpers";
+import { Container } from "./styles";
+import { resetPassword } from "@shared/services/api/auth";
+
+const ResetPassword = (
+  props: NativeStackScreenProps<RootAuthStackParamList, "ResetPassword">
+) => {
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const handleResetPassword = async (fields: { email?: string }) => {
+    try {
+      setIsLoading(true);
+      const token = await resetPassword({ email: fields.email! });
+      setIsLoading(false);
+      props.navigation.navigate("ChangePassword", { token });
+    } catch (e) {
+      setIsLoading(false);
+      handleErrors("Error", "User not found in our database.", true);
+    }
+  };
+  const handleGoBack = () => {
+    props.navigation.goBack();
+  };
+
+  return (
+    <Container>
+      <FormHeader>Reset password</FormHeader>
+      <Form
+        loading={isLoading}
+        isResetPassword
+        onSubmit={handleResetPassword}
+      />
+      <BackButton onPress={handleGoBack}>Back</BackButton>
+    </Container>
+  );
+};
+
+export default ResetPassword;
